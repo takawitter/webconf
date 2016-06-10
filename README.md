@@ -1,7 +1,7 @@
 # webconf
 Easy and lightweight configuration for web application.
 
-1. Write config classes
+## 1. Write config classes
 
 ```java
 	public static class SomeConfig1{
@@ -15,7 +15,7 @@ Easy and lightweight configuration for web application.
 	}
 ```
 
-2. Write config servlet
+## 2. Write config servlet
 
 ```java
 @WebServlet("/config")
@@ -30,6 +30,6 @@ public class SampleConfServlet extends com.github.takawitter.webconf.WebConfServ
 }
 ```
 
-3. Now you can see and modify values of configs through your browser
+## 3. Now you can see and modify values of configs through your browser
 
 ![](https://github.com/takawitter/webconf/raw/screenshots/screenshot.png)
